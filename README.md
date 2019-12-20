@@ -15,11 +15,11 @@ Your job as event organizer is to write a search that will find a "good" table s
 
 The data is given to you in the form of an ASCII text file that has the even number n of people on the first line. The first n/2 people are assumed to be hosts, the rest guests. The preference matrix follows on the remaining lines: rows with values separated by spaces. The people are assumed to be numbered 1..n. The seats are assumed to be numbered such that the top half of the table has seats 1..n/2 left-to-right, and the bottom half of the table has seats n/2+1..n left-to-right; thus seat n/2 is opposite seat n.
 
-# Platform: Linux  
-# Language: Java 
-# Execute: 
+## Platform: Linux  
+## Language: Java 
+## Execute: 
   ● Compile: javac partyTable.java 
   ● Run: ​java partyTable “text file”.  For example: java​ partyTable hw1-inst1.txt 
   ● When you run the program, nothing will show up in 60s. Then table and score will pop up in the stdout after 60s. 
 
-# Searching strategy​: Breadth-first search mix with greedy method and heuristic function
+## Searching strategy​: Breadth-first search mix with greedy method and heuristic function

@@ -8,6 +8,8 @@ Suppose you are given a set of n people (with n even) to be seated at a dinner p
    |             ...    | 
    +-------------   ----+ 
       o   o   o      o
+      
+
 Half are "hosts", half are "guests". The given function r(p) identifies the role of a given person.
 As the host, you also know an integer-valued "preference function" h(p1, p2) for a pair of people p1, p2. The preference function indicates how much the first person likes the second; it may be negative.
 

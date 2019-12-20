@@ -1,15 +1,8 @@
 # THIS IS A PROJECT FROM ARITIFICAL INTELLIGENCE FROM PROFESSOR BART MASSEY AT PORTLAND STATE UNIVERSITY. IF YOU ARE TAKING THIS COURSE, PLEASE USE THIS CODE AS A REFERENCE. DON'T JUST COPY AND FAIL THE CLASS. 
 
 # PartyTable
-Suppose you are given a set of n people (with n even) to be seated at a dinner party. The people will be seated along the two sides of a long table.
-
-      o   o   o      o
-   +-------------   ----+
-   |             ...    | 
-   +-------------   ----+ 
-      o   o   o      o
-      
-
+Suppose you are given a set of n people (with n even) to be seated at a dinner party. The people will be seated along the two sides of a long table
+     
 Half are "hosts", half are "guests". The given function r(p) identifies the role of a given person.
 As the host, you also know an integer-valued "preference function" h(p1, p2) for a pair of people p1, p2. The preference function indicates how much the first person likes the second; it may be negative.
 
